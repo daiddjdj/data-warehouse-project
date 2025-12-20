@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.7">
+  <diagram id="YQfh0qHtNBQvqFLy5FuE" name="Page-1">
+    <mxGraphModel dx="778" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="explore &amp; Understanding the Data" vertex="1">
+          <mxGeometry height="54" width="248" x="8" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Data Cleansing" vertex="1">
+          <mxGeometry height="54" width="219" x="23" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Data Correctness" vertex="1">
+          <mxGeometry height="54" width="169" x="47" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Data Documenting Versioning in GIT" vertex="1">
+          <mxGeometry height="54" width="200" x="32" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="9" edge="1" parent="1" source="2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" edge="1" parent="1" source="3" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" source="4" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3c7ejD_YBb9JebAsUHX-14" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="140" />
+            </Array>
+            <mxPoint x="520" y="310" as="sourcePoint" />
+            <mxPoint x="530" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3c7ejD_YBb9JebAsUHX-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Check Quality of Bronze" vertex="1">
+          <mxGeometry height="40" width="220" x="530" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3c7ejD_YBb9JebAsUHX-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="with Data Transformation" vertex="1">
+          <mxGeometry height="44" width="220" x="530" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="G3c7ejD_YBb9JebAsUHX-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Insert into Silver&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="220" x="530" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="G3c7ejD_YBb9JebAsUHX-19" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="639.5" y="80" as="sourcePoint" />
+            <mxPoint x="639.5" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3c7ejD_YBb9JebAsUHX-20" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="639.5" y="184" as="sourcePoint" />
+            <mxPoint x="639.5" y="244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
